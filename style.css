@@ -1,15 +1,24 @@
+body {
+    background-color: #334155;
+    color: #e2e8f0;
+    font-family: "Sono", Helvetica, sans-serif;
+}
+
+.fact-form{
+    background-color: #475569;
+}
+
 h1 {
     font-size: 42px;
     text-transform: uppercase;
     text-align: center;
     font-family: "Coiny", sans-serif;
-    color: #234abc;
 }
 
 .fact {
     font-size: 20px;
     line-height: 1.4;
-    font-family: "Sono", Helvetica, sans-serif;
+    background-color: #475569;
 }
 
 .tag {
