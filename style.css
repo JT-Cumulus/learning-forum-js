@@ -1,11 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #334155;
     color: #e2e8f0;
     font-family: "Sono", Helvetica, sans-serif;
 }
 
+.header {
+    margin-bottom: 40px;
+}
+
 .fact-form{
     background-color: #475569;
+    margin-bottom: 40px;
 }
 
 h1 {
