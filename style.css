@@ -8,15 +8,26 @@ body {
     background-color: #334155;
     color: #e2e8f0;
     font-family: "Sono", Helvetica, sans-serif;
+    padding: 40px;
 }
 
 .header {
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 .fact-form{
     background-color: #475569;
     margin-bottom: 40px;
+    padding: 16px 40px;
 }
 
 h1 {
@@ -24,18 +35,33 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-family: "Coiny", sans-serif;
+    line-height: 1;
+    margin-top: 6px;
 }
 
 .fact {
     font-size: 20px;
     line-height: 1.4;
     background-color: #475569;
+    margin-bottom: 16px;
+    padding: 16px 24px;
+    letter-spacing: -1px;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .tag {
     text-transform: uppercase;
     font-size: 14px;
     font-family: "Coiny", sans-serif;
+    padding: 10px;
+}
+
+.vote-buttons {
+    margin-left: auto;
+
 }
 
 ul {
