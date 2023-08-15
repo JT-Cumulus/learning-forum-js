@@ -29,12 +29,6 @@ loadfacts();
 
 async function loadfacts() {
     const res = await fetch("https://bigkumsgiwmafexnjvut.supabase.co/rest/v1/facts", {
-    headers: {
-        apikey: 
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpZ2t1bXNnaXdtYWZleG5qdnV0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTEzNDQyODMsImV4cCI6MjAwNjkyMDI4M30.TIp5LsrYOl6a3yJXFe2YktwIOvQlg0iCXSaIm5K75UI",
-        authorization:
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpZ2t1bXNnaXdtYWZleG5qdnV0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTEzNDQyODMsImV4cCI6MjAwNjkyMDI4M30.TIp5LsrYOl6a3yJXFe2YktwIOvQlg0iCXSaIm5K75UI",
-    }
 });
 
 const data = await res.json();
