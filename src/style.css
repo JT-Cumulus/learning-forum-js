@@ -94,12 +94,11 @@ h1 {
   gap: 24px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .fact {
     flex-direction: column;
     align-items: flex-end;
     gap: 12px;
-
   }
 }
 
@@ -118,7 +117,7 @@ h1 {
   gap: 8px;
 }
 
-.vote-buttons button{
+.vote-buttons button {
   background-color: #94a3b8;
   border: none;
   font-size: 18px;
@@ -135,11 +134,15 @@ h1 {
   background-color: #292524;
 }
 
+.vote-buttons button:disabled {
+  background-color: #334155;
+}
+
 ul {
   list-style: none;
 }
 
-.source:link, 
+.source:link,
 .source:visited {
   color: #e2e8f0;
   text-decoration: none;
@@ -209,7 +212,7 @@ ul {
   font-family: inherit;
 }
 
-.fact-form input:first-child{
+.fact-form input:first-child {
   flex-grow: 1;
 }
 
@@ -223,7 +226,7 @@ ul {
   margin-right: 18px;
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   body {
     padding: 32px 48px;
   }
