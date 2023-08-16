@@ -90,7 +90,12 @@ function Header({ showForm, setShowForm }) {
   return (
     <header className="header">
       <div className="logo">
-        <img src="logo.png" height="68" width="68" />
+        <img
+          src="logo.png"
+          alt="logo for learning forum"
+          height="68"
+          width="68"
+        />
         <h1>{appTitle}</h1>
       </div>
 
@@ -118,7 +123,7 @@ function isValidHttpUrl(string) {
 
 function NewFactForm({ setFacts, setShowForm }) {
   const [text, setText] = useState("");
-  const [source, setSource] = useState("http://example.com");
+  const [source, setSource] = useState("");
   const [category, setCategory] = useState("");
   const [isUploading, setIsUploading] = useState(false);
 
@@ -282,7 +287,12 @@ function Fact({ fact, setFacts }) {
       <p>
         {isDisputed ? <span className="disputed">[DISPUTED]</span> : null}
         {fact.text}
-        <a className="source" href={fact.source} target="_blank">
+        <a
+          className="source"
+          href={fact.source}
+          target="_blank"
+          rel="noreferrer"
+        >
           (Source)
         </a>
       </p>
