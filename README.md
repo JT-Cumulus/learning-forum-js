@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Database is linked to supabase (so may not be online due to being the free tier)
 
 Build is live at [Site](jt-learning-forum.netlify.app)
 
